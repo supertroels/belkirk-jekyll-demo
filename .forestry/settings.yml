@@ -7,7 +7,6 @@ sections:
 - type: document
   path: test
   label: Tets
-  match: "**/*"
 - type: heading
   label: Content
 - type: jekyll-posts
