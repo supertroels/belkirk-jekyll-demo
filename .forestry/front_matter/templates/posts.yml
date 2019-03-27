@@ -1,9 +1,16 @@
 ---
 label: posts
 hide_body: false
+display_field: layout
 fields:
 - name: layout
   label: Layout
   type: text
   hidden: false
   default: post
+- type: blocks
+  name: Dingbat
+  label: Dingbat
+  template_types:
+  - person
+  - landing-page
